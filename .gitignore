@@ -1,0 +1,18 @@
+# Buildroot / Embedded Linux .gitignore Template
+
+# Crucial: Ignore the entire output directory (where the .img file lives)
+/buildroot/output/
+
+# Ignore the downloaded source code archives
+/buildroot/dl/
+
+# Ignore temporary compilation files
+/buildroot/tmp/
+/buildroot/build/
+
+# Other common editor/build files
+.config.old
+*.swp
+*~
+*.d
+
